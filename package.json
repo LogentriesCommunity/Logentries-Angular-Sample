@@ -1,15 +1,13 @@
 {
-  "name": "le_angular_server",
-  "version": "0.0.1",
-  "description": "Simple express server to test sample with",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.0"
-  }
+    "name": "le_angular_sample",
+    "version": "0.0.1",
+    "description": "Simple express server to test the Angular v1 sample with",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "David Posin (david.posin.smp@gmail.com)",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.14.0"
+    }
 }
