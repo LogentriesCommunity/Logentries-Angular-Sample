@@ -6,7 +6,7 @@ To build the sample:
 * Clone this repository
 * cd into the cloned directory
 * Run npm install
-* Replace the token in app/LogEntriesService.js with your Logentries token (see below)
+* Replace the token in app/LogEntriesFactory.js with your Logentries token (see below)
 * Start the node server with
 ```
 npm run-script start
@@ -20,7 +20,7 @@ node server.js
 
 #### Connecting the sample to you Logentries account
 
-* Edit the _app/LogEntriesService.js_ file.
+* Edit the _app/LogEntriesFactory.js_ file.
 * Replace the "1234_fake_token" with your token and the links will post correctly to your Logentries.com endpoint.
 ```
 opts.token = '1234_fake_token';
