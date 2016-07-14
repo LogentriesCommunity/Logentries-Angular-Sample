@@ -1,5 +1,5 @@
 angular.module('LogEntries',[])
-.service('LoggerService', function (){
+.factory('LoggerFactory', function (){
     var opts = {};
     opts.token = '1234_fake_token';
     LE.init(opts);
