@@ -1,4 +1,4 @@
-# Logentries React Sample
+# Logentries Angular Sample
 
 To build the sample:
 
